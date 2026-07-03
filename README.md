@@ -24,14 +24,14 @@ Built as part of **Week 2 — Use Case 1**: developing and deploying AI-powered 
           │
           ▼
  ┌─────────────────────┐
- │   Azure Function      │   HTTP Trigger · Python · Linux Consumption Plan
- │   /api/summarize       │
- └─────────┬────────────┘
+ │   Azure Function    │   HTTP Trigger · Python · Linux Consumption Plan
+ │   /api/summarize    │
+ └─────────┬───────────┘
            │
            ▼
  ┌─────────────────────┐
- │  Azure AI Foundry      │   o4-mini deployment
- └─────────┬────────────┘
+ │  Azure AI Foundry   │   o4-mini deployment
+ └─────────┬───────────┘
            │
            ▼
      JSON Response
@@ -39,7 +39,7 @@ Built as part of **Week 2 — Use Case 1**: developing and deploying AI-powered 
            │
            ▼
  ┌─────────────────────┐
- │ Application Insights   │   Logs, telemetry, monitoring
+ │ Application Insights│   Logs, telemetry, monitoring
  └─────────────────────┘
 ```
 
